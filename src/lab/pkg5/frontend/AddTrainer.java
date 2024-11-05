@@ -43,7 +43,7 @@ public class AddTrainer extends javax.swing.JFrame {
         jTextField5 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setBackground(new java.awt.Color(68, 255, 107));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -78,6 +78,10 @@ public class AddTrainer extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(0, 0, 0));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Add");
+        jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, java.awt.Color.black, java.awt.Color.black, java.awt.Color.black, java.awt.Color.black));
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jButton1.setDoubleBuffered(true);
+        jButton1.setOpaque(true);
         jButton1.addHierarchyBoundsListener(new java.awt.event.HierarchyBoundsListener() {
             public void ancestorMoved(java.awt.event.HierarchyEvent evt) {
             }
@@ -148,10 +152,6 @@ public class AddTrainer extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1AncestorResized(java.awt.event.HierarchyEvent evt) {//GEN-FIRST:event_jButton1AncestorResized
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1AncestorResized
-
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         //Make sure text fields are not empty
         if (jTextField1.getText().isEmpty() || jTextField2.getText().isEmpty() || jTextField3.getText().isEmpty() || jTextField4.getText().isEmpty() || jTextField5.getText().isEmpty()) {
@@ -175,6 +175,10 @@ public class AddTrainer extends javax.swing.JFrame {
         }        
         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton1AncestorResized(java.awt.event.HierarchyEvent evt) {//GEN-FIRST:event_jButton1AncestorResized
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1AncestorResized
 
     /**
      * @param args the command line arguments
