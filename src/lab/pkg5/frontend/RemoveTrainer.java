@@ -107,7 +107,7 @@ public class RemoveTrainer extends javax.swing.JFrame {
        }
        else{
            //Remove trainer if he/she exists
-           JOptionPane.showMessageDialog(this, "The trainer with ID " + jTextField1.getText() + " has been removed successfully", "Message", JOptionPane.INFORMATION_MESSAGE, null);
+           JOptionPane.showMessageDialog(this, "The trainer with ID " + jTextField1.getText() + " has been removed successfully", "Message", JOptionPane.PLAIN_MESSAGE);
            admin.logout();
            this.dispose();
        }

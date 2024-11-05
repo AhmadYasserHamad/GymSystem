@@ -5,3 +5,6 @@ M003, member3, Monthly, mem3@example.com, 0333, Active
 2, 2, 2, 2, 2, 2
 a, a, a, a, a, a
 q, q, q, q, q, q
+11, 11, 1, 1, 1, 1
+z, z, z, z, z, z
+0, 0, 0, 0, 0, 0

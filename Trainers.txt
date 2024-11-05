@@ -3,3 +3,5 @@ T002, David, david@fitlife.com, Yoga, 0123456789
 T003, David, david@fitlife.com, Yoga, 0123456789
 T004, David, david@fitlife.com, Yoga, 0123456789
 T005, David, david@fitlife.com, Yoga, 0123456789
+8, 8, 8, 8, 8
+w, w, w, w, w
